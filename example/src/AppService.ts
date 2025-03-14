@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import Stripe from 'stripe';
-import { InjectStripe } from './../../src';
+import { InjectStripe } from '../../src';
 
 @Injectable()
 export class AppService {
